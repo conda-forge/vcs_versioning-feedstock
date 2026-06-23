@@ -1,4 +1,4 @@
-{% set version = "1.1.1" %}
+{% set version = "2.1.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/v/vcs_versioning/vcs_versioning-{{ version }}.tar.gz
-  sha256: fabd75a3cab7dd8ac02fe24a3a9ba936bf258667b5a62ed468c9a1da0f5775bc
+  sha256: 66d9e2c2afd792090bc381aec985d6cd82cb935be35910a742e0af31ca4be61e
 
 build:
   noarch: python
