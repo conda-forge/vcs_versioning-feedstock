@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.2.1"
+  version: "2.2.2"
 
 package:
   name: vcs_versioning
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/v/vcs_versioning/vcs_versioning-${{ version }}.tar.gz
-  sha256: 1d2ada0f46e54bf01b6eedd048f939f2de45648322e24f69eb7749e52014350f
+  sha256: 4ac4ded78720cdb4d0291ae58ace87e1e9201912e1023f3029c6cce5c9152cfb
 
 build:
   number: 0
