@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.2.2"
+  version: 2.2.3
 
 package:
   name: vcs_versioning
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/v/vcs_versioning/vcs_versioning-${{ version }}.tar.gz
-  sha256: 4ac4ded78720cdb4d0291ae58ace87e1e9201912e1023f3029c6cce5c9152cfb
+  sha256: c21e284aa98c8269996791a19d6173baf953cf9996ef42ec3ebcbdc151e18b9b
 
 build:
   number: 0
@@ -28,7 +28,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - packaging >=20
+    - packaging >=26.2
     - tomli >=1
     - typing_extensions >=4.1
 tests:
